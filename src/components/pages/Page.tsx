@@ -9,6 +9,7 @@ type PropsType = {
 
 const Page = (props: PropsType) => {
     const params = useParams()
+    // console.log(params);// object
     const element = Number(params.id)
 
     return (
